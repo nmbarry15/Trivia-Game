@@ -1,0 +1,18 @@
+.jumbotron{
+    border: 5px white dashed;
+    background-color: rgba(34, 95, 185, 0.76);
+    font-family: 'Permanent Marker', cursive;
+}
+
+.title{
+    font-size: 60px;
+}
+
+.abtn{
+    border: 0;
+    font-size: 20px;
+}
+
+#start, #playAgain, .endPage{
+    font-size: 30px;
+}

@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
+        crossorigin="anonymous">
+
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+    <link href="https://fonts.googleapis.com/css?family=Expletus+Sans" rel="stylesheet">
+
+    <title>Sports Trivia Game</title>
+</head>
+
+<body background="assets/images/background.jpg">
+
+    <br>
+    <br>
+    <div class="container question-page">
+        <div class="jumbotron text-white text-center p-5">
+            <div class="p-2 m-0">
+                <h1 class="title font-weight-bold">Sports Trivia</h1>
+            </div>
+            <h4 class="p-2 m-0" id="time-left">
+                Time left: <span class="timer">10</span>
+            </h4>
+            <h3 class="p-2 m-0" id="question-num">Question #<span class="question"></span></h3>
+            <button type="button" class="btn btn-outline-light font-weight-bold" id="start">START</button>
+            <div class="row">
+                <div class="col-3"></div>
+                <div class="col-3">
+                    <button type="button" class="btn btn-outline-light font-weight-bold abtn" id="answer1" value="1"></button>
+                </div>
+                <div class="col-3">
+                    <button type="button" class="btn btn-outline-light font-weight-bold abtn" id="answer2" value="2"></button>
+                </div>
+                <div class="col-3"></div>
+            </div>
+            <div class="row">
+                <div class="col-3"></div>
+                <div class="col-3">
+                    <button type="button" class="btn btn-outline-light font-weight-bold abtn" id="answer3" value="3"></button>
+                </div>
+                <div class="col-3">
+                    <button type="button" class="btn btn-outline-light font-weight-bold abtn" id="answer4" value="4"></button>
+                </div>
+                <div class="col-3"></div>
+            </div>
+            <div class="correct endPage"></div>
+            <div class="incorrect endPage"></div>
+            <div class="unanswered endPage mb-4"></div>
+            <button type="button" class="btn btn-outline-light font-weight-bold" id="playAgain">PLAY AGAIN</button>
+        </div>
+    </div>
+
+    <script src="assets/javascript/app.js"></script>
+
+
+</body>
+
+</html>
