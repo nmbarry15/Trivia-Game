@@ -131,7 +131,7 @@ function correctAns() {
     $(".incorrect").html('<img src="' + gameinfo.correctGifs[questionNum] + '">');
 }
 
-function incorrectAns(userNum) {
+function incorrectAns() {
     $(".abtn").hide();
     $("#time-left").hide();
     switch (gameinfo.correctAns[questionNum]) {
@@ -151,7 +151,7 @@ function incorrectAns(userNum) {
     $(".incorrect").html('<img src="' + gameinfo.incorrectGifs[questionNum] + '">');
 }
 
-function unanswered(userNum) {
+function unanswered() {
     $(".abtn").hide();
     $("#time-left").hide();
     switch (gameinfo.correctAns[questionNum]) {
